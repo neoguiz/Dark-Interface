@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+}
+
+@media (max-width:415px){
+
+  header {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}
