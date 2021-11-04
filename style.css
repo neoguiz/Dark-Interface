@@ -14,17 +14,27 @@
     text-align: center;
   }
 
-  .container div{
-    background-color: black;
-    color: white;
-    display: inline-block;
-    height: 100px;
-    width: 100px;
-    
+  .container {
+    width: 90vw;
+
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 140px 140px;
+    justify-content: space-around;
   }
 
-  .features{
-    text-align: center;
-    line-height: 620%;
+  /* pra toda div dentro de .container: */
+  .container div {
+    height: 130px;
+
+    margin-top: 20px;
+
+    background-color: black;
+    color: white;
+
+    line-height: 130px;
   }
 }
