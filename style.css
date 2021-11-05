@@ -7,7 +7,7 @@ body {
   width: 95%;
   margin-right: auto;
   margin-left: auto;
-  background-color: #08080C;
+  background-color: #08080c;
 }
 
 header {
@@ -20,7 +20,6 @@ header {
   width: 90vw;
 
   margin: 0 auto;
-  padding: 10px;
   text-align: center;
 
   display: grid;
@@ -30,23 +29,36 @@ header {
 
 /* pra toda div dentro de .container: */
 .container div {
+  font-family: 'Oxanium', 'cursive';
+
   height: 150px;
-
   margin-top: 20px;
+  display: block;
 
-  background-image: linear-gradient(rgba(25,27,31,100),rgba(20,27,31,0.64));
-  color: white;
-
-  line-height: 150px;
+  background-image: linear-gradient(
+    rgba(25, 27, 31, 100),
+    rgba(20, 27, 31, 0.64)
+  );
+  color: #7f8a94;
+  line-height: ;
 }
-
-
+.container div > p {
+  color: #7f8a94;
+}
 
 @media (max-width: 415px) {
   body {
-    width: 95%;
-    margin-right: auto;
+    width: 100vw;
+  }
+  main {
+    width: 100%;
     margin-left: auto;
+    margin-right: auto;
+  }
+  section {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   header {
@@ -55,23 +67,23 @@ header {
   }
 
   .container {
-    width: 90vw;
+    width: 80vw;
 
     margin: 0 auto;
-    padding: 10px;
     text-align: center;
 
     display: grid;
-    grid-template-columns: 25vw 25vw;
-    justify-content: space-around;
+    grid-template-columns: 35vw 35vw;
+    row-gap: 3vw;
+    column-gap: 6vw;
+    justify-content: space-evenly;
   }
 
   /* pra toda div dentro de .container: */
   .container div {
-    height: 150px;
+    height: 35vw;
 
     margin-top: 20px;
-
-    line-height: 150px;
+    border-radius: 4vw;
   }
 }
