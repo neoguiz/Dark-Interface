@@ -42,7 +42,8 @@ header {
 }
 .container div > img {
   width: 35%;
-  margin-top: 50px;
+  height: 35%;
+  margin-top: 25%;
 }
 .container div > p {
   margin-top: 8%;
