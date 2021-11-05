@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  color: white;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
 }
 
 header {
+  color: white;
   margin: 10% auto 5%;
   text-align: center;
 }
@@ -32,7 +34,7 @@ header {
 
   margin-top: 20px;
 
-  background-color: #191B1F;
+  background-image: linear-gradient(rgba(25,27,31,100),rgba(20,27,31,0.64));
   color: white;
 
   line-height: 150px;
@@ -60,7 +62,7 @@ header {
     text-align: center;
 
     display: grid;
-    grid-template-columns: 150px 150px;
+    grid-template-columns: 25vw 25vw;
     justify-content: space-around;
   }
 
@@ -69,9 +71,6 @@ header {
     height: 150px;
 
     margin-top: 20px;
-
-    background-color: #191B1F;
-    color: white;
 
     line-height: 150px;
   }
