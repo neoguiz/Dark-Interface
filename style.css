@@ -9,7 +9,6 @@ body {
   margin-left: auto;
   background-color: #08080c;
 }
-
 header {
   color: white;
   margin: 10% auto 5%;
@@ -36,14 +35,20 @@ header {
   display: block;
 
   background-image: linear-gradient(
-    rgba(25, 27, 31, 100),
-    rgba(20, 27, 31, 0.64)
+    rgba(25, 27, 31, 0.7),
+    rgba(20, 27, 31, 0.5)
   );
   color: #7f8a94;
   line-height: ;
 }
+.container div > img {
+  width: 35%;
+  margin-top: 25%;
+}
 .container div > p {
+  margin-top: 8%;
   color: #7f8a94;
+  font-size: 5vw;
 }
 
 @media (max-width: 415px) {
@@ -74,7 +79,7 @@ header {
 
     display: grid;
     grid-template-columns: 35vw 35vw;
-    row-gap: 3vw;
+    row-gap: 1vw;
     column-gap: 6vw;
     justify-content: space-evenly;
   }
