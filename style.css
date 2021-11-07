@@ -71,6 +71,11 @@ header > h1 > span {
   text-align: center;
   line-height: 16.67vw;
 }
+#profile_div > p {
+  width:fit-content;
+  height: fit-content;
+  margin: auto;
+}
 
 @media (max-width: 415px) {
   body {
@@ -105,4 +110,8 @@ header > h1 > span {
     margin-top: 20px;
     border-radius: 4vw;
   }
+}
+
+@media (min-width: 415px) {
+  
 }
