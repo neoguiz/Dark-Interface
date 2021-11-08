@@ -113,5 +113,27 @@ header > h1 > span {
 }
 
 @media (min-width: 415px) {
-  
+
+  header {
+    margin-top: 2%;
+    margin-left: -36px;
+  }
+  .container{
+    row-gap: 2vw;
+    column-gap: 2vw;
+    justify-content:center;
+  }
+  .container div {
+    max-width: 120px;
+    max-height: 120px;
+  }
+  .container div > img {
+    max-width: 50%;
+    height: 50%;
+    margin-top: 10%;
+  }
+  .container div > p {
+    font-size: 105%;
+  }
+
 }
